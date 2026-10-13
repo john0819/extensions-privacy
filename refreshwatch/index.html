@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>RefreshWatch – Privacy Policy</title>
+<style>body{font:16px/1.6 system-ui,sans-serif;max-width:760px;margin:40px auto;padding:0 20px;color:#222}h1{color:#2e7d32}h2{margin-top:28px}code{background:#f2f2f2;padding:1px 4px;border-radius:3px}</style></head>
+<body>
+<h1>RefreshWatch – Privacy Policy</h1>
+<p><strong>Effective date:</strong> 12 October 2026</p>
+<p>RefreshWatch ("the extension") is a Chrome extension that refreshes browser tabs on a timer and alerts you when a page changes. This policy explains what data it handles.</p>
+
+<h2>Summary</h2>
+<ul>
+<li>We do not collect, sell, rent or share your personal data or browsing history.</li>
+<li>There are no analytics, ads, trackers or remote code.</li>
+<li>Your settings, alert history and watched-page snippets are stored only on your device.</li>
+</ul>
+
+<h2>Data stored on your device</h2>
+<ul>
+<li><strong>Timer settings</strong>: the tab, its URL, the interval, an optional CSS selector or keyword, and alert options. The URL is kept so the timer can resume after you restart Chrome.</li>
+<li><strong>Change detection</strong>: a numeric fingerprint (hash) and up to 200 characters of the text in the region you chose to watch.</li>
+<li><strong>Alert history (Pro)</strong>: time, page URL, alert message and the same short text snippet, up to 500 entries. You can export it as CSV or clear it at any time.</li>
+<li><strong>Push settings (Pro)</strong>: the webhook URL and Telegram bot token/chat id you enter.</li>
+</ul>
+<p>This data is stored in Chrome's extension storage (<code>chrome.storage.local</code>). It is removed when you stop a timer, clear the history, or uninstall the extension.</p>
+
+<h2>Data sent over the network</h2>
+<ul>
+<li><strong>Page reloads</strong>: the extension only reloads the tabs you choose.</li>
+<li><strong>Your own push destinations (Pro, optional)</strong>: if you set a webhook URL or a Telegram bot, each alert sends its message, page URL, selector/keyword and time to that destination, and nowhere else. Telegram's handling is covered by Telegram's privacy policy.</li>
+<li><strong>Payments and licence check (Pro)</strong>: payments and licence checks are handled by ExtensionPay (extensionpay.com), with card payments processed by Stripe. To check your licence, the extension sends ExtensionPay a random identifier for this installation. If you buy or start a trial, ExtensionPay and Stripe receive the email and payment details you enter on their pages. We never see your card details. See <a href="https://extensionpay.com/">ExtensionPay's privacy information</a> and <a href="https://stripe.com/privacy">Stripe's privacy policy</a>.</li>
+</ul>
+
+<h2>Permissions</h2>
+<p>RefreshWatch asks for access to a website only when you enable alerts or restart-restore for that site, and you can revoke it in <code>chrome://extensions</code>. Other permissions are used as follows:</p>
+<ul>
+<li><strong>alarms</strong>: run the timers.</li>
+<li><strong>storage</strong>: keep the data described above.</li>
+<li><strong>scripting</strong>: read the watched region's text after each refresh.</li>
+<li><strong>notifications</strong>: show alerts.</li>
+<li><strong>offscreen</strong>: play the alert sound.</li>
+<li><strong>activeTab</strong>: identify the tab you start a timer on.</li>
+</ul>
+
+<h2>Children</h2>
+<p>The extension is not directed at children under 13 and does not knowingly collect their data.</p>
+
+<h2>Changes</h2>
+<p>If this policy changes, the updated version will be posted on this page with a new effective date.</p>
+
+<h2>Contact</h2>
+<p>Questions or requests: <a href="mailto:john.wonghk0819@gmail.com">john.wonghk0819@gmail.com</a></p>
+</body></html>
