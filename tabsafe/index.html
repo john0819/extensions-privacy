@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>TabSafe – Privacy Policy</title>
+<style>body{font:16px/1.6 system-ui,sans-serif;max-width:760px;margin:40px auto;padding:0 20px;color:#222}h1{color:#0f766e}h2{margin-top:28px}code{background:#f2f2f2;padding:1px 4px;border-radius:3px}</style></head>
+<body>
+<h1>TabSafe – Privacy Policy</h1>
+<p><strong>Effective date:</strong> 14 October 2026</p>
+<p>TabSafe ("the extension") is a Chrome extension that saves and restores browser tab sessions, including Chrome tab groups, with automatic local snapshots and export. This policy explains what data it handles.</p>
+
+<h2>Summary</h2>
+<ul>
+<li>We do not collect, sell, rent or share your personal data or browsing history.</li>
+<li>There are no analytics, ads, trackers or remote code.</li>
+<li>Your sessions, snapshots and settings are stored only on your device.</li>
+<li>No account is required.</li>
+</ul>
+
+<h2>Data stored on your device</h2>
+<ul>
+<li><strong>Saved sessions</strong>: names, timestamps, window layout, tab URLs/titles, pinned/active flags, and Chrome tab-group metadata (title, color, collapsed).</li>
+<li><strong>Auto snapshots</strong>: the same kind of data, kept as a rotating local backup (you choose how many to keep).</li>
+<li><strong>Settings</strong>: snapshot interval, retention count, and preferences such as "close tabs after save".</li>
+</ul>
+<p>This data is stored in Chrome's extension storage (<code>chrome.storage.local</code> / unlimitedStorage). It is removed when you delete a session, clear snapshots, or uninstall the extension. Exporting JSON/HTML writes a file you choose on your device; TabSafe does not upload that file.</p>
+
+<h2>Data sent over the network</h2>
+<p>TabSafe does not send your session data, URLs, or settings to our servers. The only network activity is whatever Chrome itself does when you open or restore a tab URL you already had.</p>
+
+<h2>Permissions</h2>
+<ul>
+<li><strong>tabs</strong>: read open tab URLs/titles so sessions can be saved and restored.</li>
+<li><strong>tabGroups</strong>: read and recreate Chrome tab groups (title, color, collapsed).</li>
+<li><strong>storage</strong> / <strong>unlimitedStorage</strong>: keep sessions and snapshots locally (large session lists need unlimitedStorage).</li>
+<li><strong>alarms</strong>: run the automatic snapshot timer even when the extension worker sleeps.</li>
+</ul>
+<p>TabSafe does not request host permissions and does not run content scripts on websites.</p>
+
+<h2>Children</h2>
+<p>The extension is not directed at children under 13 and does not knowingly collect their data.</p>
+
+<h2>Changes</h2>
+<p>If this policy changes, the updated version will be posted on this page with a new effective date.</p>
+
+<h2>Contact</h2>
+<p>Questions or requests: <a href="mailto:john.wonghk0819@gmail.com">john.wonghk0819@gmail.com</a></p>
+</body></html>
